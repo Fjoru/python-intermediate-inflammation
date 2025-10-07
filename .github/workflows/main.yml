@@ -29,7 +29,7 @@ jobs:
 
     - name: Install Python dependencies
       run: |
-        uv sync --freeze
+        uv sync --frozen
         
 
     - name: Test with PyTest
