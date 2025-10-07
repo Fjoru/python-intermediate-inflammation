@@ -10,6 +10,7 @@ dependencies = [
     "matplotlib>=3.9.4",
     "numpy>=2.0.2",
     "pylint>=3.3.9",
+    "pytest>=8.4.2",
 ]
 
 [tool.setuptools]
