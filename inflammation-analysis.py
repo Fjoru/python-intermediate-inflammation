@@ -52,7 +52,7 @@ if __name__ == "__main__":
         description='A basic patient inflammation data management system')
 
     parser.add_argument(
-        'in_files',
+        'infiles',
         nargs='+',
         help='Input CSV(s) containing inflammation series for each patient')
 
